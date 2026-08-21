@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pdb_format_detector"
-version = "0.1.0"
+version = "1.0.0"
 description = "Automatically detect the format of a macromolecular structure file (legacy PDB, PDBx/mmCIF, or binary CIF)"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -24,6 +24,9 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/fbaltoumas/pdb-format-detector"
+
+[project.scripts]
+pdb-format-detector = "pdb_format_detector.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

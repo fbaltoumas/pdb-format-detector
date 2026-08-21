@@ -3,4 +3,4 @@
 from .detect import PDBDetector
 
 __all__ = ["PDBDetector"]
-__version__ = "0.1.0"
+__version__ = "1.0.0"
